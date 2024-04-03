@@ -24,11 +24,17 @@ class Snake:
 
     def generate_snake(self):
         for each in STARTING_POSITIONS:
-            new_segment = Turtle('square')
-            new_segment.penup()
-            new_segment.color('white')
-            new_segment.goto(each)
-            self.segments.append(new_segment)
+            self.add_segment(each)
+
+    def add_segment(self, position):
+        new_segment = Turtle('square')
+        new_segment.penup()
+        new_segment.color('white')
+        new_segment.goto(position)
+        self.segments.append(new_segment)
+
+    def extend(self):
+        self.add_segment(self.segments[-1].position())
 
     def rainbow_segments(self):
         for each in self.segments:

@@ -52,5 +52,15 @@ while game_is_on:
         x = score_board.read_score()
         high_board.update_high_score(x)
 
+    for segment in snake.segments:
+        if segment == snake.head:
+            pass
+        elif snake.head.distance(segment) < 5:
+            game_is_on = False
+            score_board.game_over()
+            x = score_board.read_score()
+            high_board.update_high_score(x)
+
+
 
 screen.exitonclick()

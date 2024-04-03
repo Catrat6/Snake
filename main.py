@@ -1,7 +1,8 @@
 import time
-from turtle import Screen
+from turtle import Turtle, Screen
 from snake import Snake
 from food import Food
+from scoreboard import ScoreKeeper
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -11,6 +12,8 @@ screen.tracer(0)
 
 snake = Snake()
 food = Food()
+score_board = ScoreKeeper()
+
 
 screen.listen()
 screen.onkey(snake.up, "Up")
@@ -19,7 +22,6 @@ screen.onkeypress(snake.left, "Left")
 screen.onkeypress(snake.right, "Right")
 
 game_is_on = True
-
 
 
 while game_is_on:
@@ -33,6 +35,7 @@ while game_is_on:
         food.refresh()
         snake.generate_snake()
         snake.bloody_mouth()
+        score_board.update_score()
 
 
 

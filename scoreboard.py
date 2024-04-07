@@ -18,6 +18,16 @@ class ScoreKeeper(Turtle):
         self.clear()
         self.score += 1
         self.write(f"Score: {self.score}", False, "center", ("Arial", 20, "normal"))
+    def super_food_score_update(self):
+        self.clear()
+        self.score += 3
+        self.write(f"Score: {self.score}", False, "center", ("Arial", 20, "normal"))
+
+    def bomb_score_down(self):
+        self.clear()
+        self.score -= 3
+        self.write(f"Score: {self.score}", False, "center", ("Arial", 20, "normal"))
+
 
     def read_score(self):
         return self.score

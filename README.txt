@@ -1,7 +1,20 @@
-# Snake 2024
-## Built by ** Nny **
+Snake 2024
+Built by ** Nny **
 
-**
+                          _,..,,,_
+                     '``````^~"-,_`"-,_
+       .-~c~-.                    `~:. ^-.
+   `~~~-.c    ;                      `:.  `-,     _.-~~^^~:.
+         `.   ;      _,--~~~~-._       `:.   ~. .~          `.
+          .` ;'   .:`           `:       `:.   `    _.:-,.    `.
+        .' .:   :'    _.-~^~-.    `.       `..'   .:      `.    '
+       :  .' _:'   .-'        `.    :.     .:   .'`.        :    ;
+       :  `-'   .:'             `.    `^~~^`   .:.  `.      ;    ;
+        `-.__,-~                  ~-.        ,' ':    '.__.`    :'
+                                     ~--..--'     ':.         .:'
+                                                     ':..___.:'
+
+
 Rules/How to play:
 
 The speed is in snake.py, change move_distance up or down to adjust speed.
@@ -16,7 +29,7 @@ this, sorry about that.
 7. The goal is to just keep eating and growing and get the score as high as you can, high score will automatically update
     when it is achieved. **
 
-## Next Updates Coming Soon
+##Next Updates Coming Soon
     - Levels or different challenges based on score.
     - Pause, game will start paused.
 

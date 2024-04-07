@@ -4,6 +4,11 @@ from snake import Snake
 from food import Food, SuperFood
 from scoreboard import ScoreKeeper, HighScore
 from testing_grounds import BombDrop
+from ascii import snake_zero, snake_one, snake_two, snake_three
+import os
+
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -37,9 +42,19 @@ while game_is_on:
     time.sleep(0.1)
     snake.move()
 
+    print(snake_zero)
+    clear_screen()
+    print(snake_one)
+    clear_screen()
+    print(snake_two)
+    clear_screen()
+    print(snake_three)
+    clear_screen()
+
     if score_board.score < 0:
         game_is_on = False
         score_board.game_over()
+        high_board.update_high_score()
 
     if chew_count > 2:
         bomb.refresh()

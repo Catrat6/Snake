@@ -29,21 +29,20 @@ this, sorry about that.
 7. The goal is to just keep eating and growing and get the score as high as you can, high score will automatically update
     when it is achieved. **
 
-##Next Updates Coming Soon
+Next Updates Coming Soon
     - Levels or different challenges based on score.
     - Pause, game will start paused.
 
+Probably not even close to exciting for you as it is for me.
+This was my first game in python using actual Graphics.
 
-#### Probably not even close to exciting for you as it is for me.
-#### This was my first game in python using actual Graphics.
+Started as a Capstone Project
 
-## Started as a Capstone Project
+This game started out very basic as just simple capstone project from one of my courses.
+I decided to expand on it though instead of just doing the bear minimum
+The bear minimum was just black and white, 1 random food piece, ya know the OG first snake.
 
-#### This game started out very basic as just simple capstone project from one of my courses.
-#### I decided to expand on it though instead of just doing the bear minimum
-#### The bear minimum was just black and white, 1 random food piece, ya know the OG first snake.
-
-## My Additions
+My Additions
 
 1. I added colors, I also added some more skins for the snake and plan on making cooler ones
     There are methods in there that can make it rainbow. I plan on trying to come up with some cooler ones.
@@ -57,11 +56,13 @@ this, sorry about that.
 
 I made *plenty* of other changes as well like including a snake animation in the terminal as the game runs.
 
-## Updates
+Updates
 
 Even though no one will ever play this I will keep updating it and working on it just out of tradition and being my first
 Graphical Python Game. Next I plan to add levels and a way to pause, the game should also start paused probs
 
-[link My Website](www.blackmagik.xyz)
+Check out more of my work (mostly web design until I get to updating this):
+
+www.blackmagik.xyz
 
 
